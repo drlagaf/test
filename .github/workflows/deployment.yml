@@ -1,6 +1,6 @@
 name: html-design CI
 on:
-  push: [push_request]
+  push:
     branches: [ "master" ]
 jobs:
   build:
