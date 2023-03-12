@@ -1,7 +1,7 @@
 name: html-design CI
 on:
-  push:
-    branches: [ "master" ]
+  push: [push_request]
+    branches: [ "main" ]
 jobs:
   build:
     runs-on: ubuntu-latest
